@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import background from "/LandingBackground.gif"; // Import the background image
 
-const Page2 = () => {
+const LandingWithoutAnimation = () => {
   return (
     <div
       className="relative min-h-screen flex bg-stone-200"
@@ -25,4 +25,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default LandingWithoutAnimation;

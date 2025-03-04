@@ -1,12 +1,12 @@
-import Page1 from "./components/Page1.jsx";
-import Page2 from "./components/Page2.jsx";
+import LandingWithAnimation from "./components/LandingWithAnimation.jsx";
+import LandingWithoutAnimation from "./components/LandingWithoutAnimation.jsx";
 
 export default function App() {
   return (
     <>
-      <Page2 />
+      <LandingWithoutAnimation />
 
-      <Page1 />
+      <LandingWithAnimation />
     </>
   );
 }

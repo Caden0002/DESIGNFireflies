@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import background from "/LandingBackground.gif"; // Import the background image
 
-const Page1 = () => {
+const LandingWithAnimation = () => {
   const [fireflies, setFireflies] = useState([]);
 
   useEffect(() => {
@@ -74,4 +74,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default LandingWithAnimation;
