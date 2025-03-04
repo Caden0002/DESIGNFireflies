@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import background from "/LandingBackground.gif"; // Import the background image
 
 const LandingWithoutAnimation = () => {
